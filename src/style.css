@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'fff';
+    src: url('fff_tusj-webfont.woff2') format('woff2'),
+         url('fff_tusj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'grand';
+    src: url('grandhotel-regular-webfont.woff2') format('woff2'),
+         url('grandhotel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'great';
+    src: url('greatvibes-regular-webfont.woff2') format('woff2'),
+         url('greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'grand';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'norwester';
+    src: url('norwester-webfont.woff2') format('woff2'),
+         url('norwester-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sail';
+    src: url('sail-regular-webfont.woff2') format('woff2'),
+         url('sail-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* background-color: #fffaf5 */
+}
+.primaryPage {
+    display: grid;
+    grid-template-rows: 0.7fr 6fr 2fr;
+    height: 200vh;
+    background-color: #fff
+}
+.primaryPageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #fdf5ed; */
+    height: min-content;
+}
+.primaryPageFooter {
+    /* background-color: #fffaf5 */
+}
+.logo {
+    background-color: black;
+    border-radius: 100%;
+    box-shadow: 1px 1px 15px black;
+    height: 5rem;
+    margin: 1rem 1.5rem 5px 5rem;
+}
+.buttonContainer {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+.buttonGetStarted {
+    font-family: "great";
+    font-size: 2rem;
+    background: none;
+    border: none;
+}
+.buttonLogin {
+    justify-self: end;
+    font-family: "great";
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    padding: 6px 18px 3px 18px;
+    border-radius: 5px;
+}
+.buttonGetStarted:hover {
+  color: rgb(119, 118, 118);
+  cursor: pointer;
+}
+.buttonLogin:hover {
+  background-color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+.logo:hover {
+    box-shadow: 1px 1px 20px black;
+}
+/* content */
+.contentWelcome {
+    margin-top: 4rem;
+    font-family: "sail";
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
